@@ -61,29 +61,29 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 ##### Equipe:
 
-- Fabrício Adriel
-[Git Lab](https://gitlab.com/fabricioadriel)
-[Linkedin](linkedin.com/in/fabricioadriel)
-RA: 1460281923009
+##### Fabrício Adriel
+* [Git Lab](https://gitlab.com/fabricioadriel)
+* [Linkedin](linkedin.com/in/fabricioadriel)
+* RA: 1460281923009
 
-- Felipe Santos
-[Git Lab](https://gitlab.com/felipefsc)
-[Linkedin](https://www.linkedin.com/in/felipe-santos-454060187/)
-RA: 1460281923011
+##### Felipe Santos
+* [Git Lab](https://gitlab.com/felipefsc)
+* [Linkedin](https://www.linkedin.com/in/felipe-santos-454060187/)
+* RA: 1460281923011
 
-- Gabriela Momilli
-[Git Lab](https://gitlab.com/gabsmomilli)
-[Linkedin](linkedin.com/in/gabriela-momilli-105b1a184)
-RA: 1460281923058
+##### Gabriela Momilli
+* [Git Lab](https://gitlab.com/gabsmomilli)
+* [Linkedin](linkedin.com/in/gabriela-momilli-105b1a184)
+* RA: 1460281923058
 
-- Gilberto Souza
-[Git Lab](https://gitlab.com/gilberto.santos10)
-[Linkedin](linkedin.com/in/gilberto-santos-jr)
-RA: 1460281723021
+##### Gilberto Souza
+* [Git Lab](https://gitlab.com/gilberto.santos10)
+* [Linkedin](linkedin.com/in/gilberto-santos-jr)
+* RA: 1460281723021
 
-- Samuel Chagas
-[Git Lab](https://gitlab.com/Chagas2708)
-[Linkedin](linkedin.com/in/samuel-chagas-0b1ba414b)
+##### Samuel Chagas
+* [Git Lab](https://gitlab.com/Chagas2708)
+* [Linkedin](linkedin.com/in/samuel-chagas-0b1ba414b)
 
 #### Como Instalar o projeto na máquina:
 
