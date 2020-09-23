@@ -1,3 +1,5 @@
+![logo](/uploads/4314307b69d1017bf8b22767856e3ff4/logo.jpg)
+
 <h1 align="center">Dashboard Cadastro Positivo</h1>
 
 ## Descrição do Projeto
@@ -23,14 +25,15 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 ## Status do Projeto
 
 <h4 align="center"> 
-	🚧  Dashboard Spc 🚀 Em Desenvolvimento...  🚧
+	🚧  Dashboard Spc 🔧 Em Desenvolvimento...  🚧
 </h4>
 
 ### Features
 
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+- [ ] Score do cadastro positivo
+- [ ] Histórico do score do usuário
+- [ ] Gráfico com o status das contas
+- [ ] Gráfico com os tipos de contas
 
 ### Requisitos
 
@@ -58,15 +61,29 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 ##### Equipe:
 
-[Fabrício Adriel](https://gitlab.com/fabricioadriel)
+- Fabrício Adriel
+[Git Lab](https://gitlab.com/fabricioadriel)
+[Linkedin](linkedin.com/in/fabricioadriel)
+RA: 1460281923009
 
-[Felipe Santos](https://gitlab.com/felipefsc)
+- Felipe Santos
+[Git Lab](https://gitlab.com/felipefsc)
+[Linkedin](https://www.linkedin.com/in/felipe-santos-454060187/)
+RA: 1460281923011
 
-[Gabriela Momilli](https://gitlab.com/gabsmomilli)
+- Gabriela Momilli
+[Git Lab](https://gitlab.com/gabsmomilli)
+[Linkedin](linkedin.com/in/gabriela-momilli-105b1a184)
+RA: 1460281923058
 
-[Gilberto Souza](https://gitlab.com/gilberto.santos10)
+- Gilberto Souza
+[Git Lab](https://gitlab.com/gilberto.santos10)
+[Linkedin](linkedin.com/in/gilberto-santos-jr)
+RA: 1460281723021
 
-[Samuel Chagas]
+- Samuel Chagas
+[Git Lab](https://gitlab.com/Chagas2708)
+[Linkedin](linkedin.com/in/samuel-chagas-0b1ba414b)
 
 #### Como Instalar o projeto na máquina:
 
@@ -74,12 +91,8 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 - Abra o terminal clicando dentro de uma pasta com o botão direito e selecione a opção git bash here
 - Utilize a função git clone https://gitlab.com/tecno-code/dashboard-spc para instalar os arquivos no seu computador
 
-### 🛠 Tecnologias
+### 💻 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Java](https://www.java.com/)
