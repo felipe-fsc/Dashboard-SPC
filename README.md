@@ -13,6 +13,7 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
    * [Índice](#indice)
    * [Status do Projeto](#status-do-projeto)
    * [Features](#features)
+   * [Entregas](#entregas)
    * [Requisitos](#requisitos)
       * [Funcionais](#funcionais)
       * [Não Funcionais](#nao-funcionais)
@@ -35,29 +36,39 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 - [ ] Gráfico com o status das contas
 - [ ] Gráfico com os tipos de contas
 
+### Entregas
+
+| Sprint | Data  | Vídeo |
+|--------|-------|-------|
+| 0      | 27/09 |       |
+| 1      | 18/10 |       |
+| 2      | 08/11 |       |
+| 3      | 29/11 |       |
+
 ### Requisitos
 
 #### Funcionais
 
-- De acordo com o Setor de Negócio/MVP sugerido, verificar as possibilidades de cadastros e relatórios.
-- Importação e tratamento de dados disponibilizados devem ser utilizados.
-- Poderão utilizar de outras fontes de dados para compor produto.
-- Sistema deve possibilitar o registro de novos usuários no sistema de cadastro positivo, assumindo-se perfis diferentes como os dois exemplos abaixo, mas não limitando-se a este:
-—>Empresas que têm o objetivo de consulta do cadastro positivo de consumidores e seu score de crédito
-—> Consumidores que desejam consultar seu score de crédito, histórico de pagamentos e também revogar o acesso de alguma empresa
+| Requisitos Funcionais                          | Código | Prioridade | Sprint |
+|------------------------------------------------|--------|------------|--------|
+| Autenticação dos dados                         | RF01   | 1          | 1      |
+| Tela com valor atual do score                  | RF02   | 1          | 1      |
+| Faq (perguntas frequentes)                     | RF03   | 2          | 1      |
+| Visualização do status de pagamento das contas | RF04   | 1          | 2      |
+| Gráfico com descrição de consumo               | RF05   | 1          | 2      |
+| Histórico do score do usuário                  | RF06   | 1          | 3      |
+| Conexão com banco de dados                     | RF07   | 1          | 3      |
 
 #### Não Funcionais
 
-- Linguagem de Programação e Stack Java (requisito Fatec).
-- Banco de Dados Relacional (requisito Fatec).
-- Documentações do produto.
-- Plano de negócio (forma de venda e monetização da informação).
-- Sistema estruturado para tratar grandes volumes de dados.
-- Regras de negócio parametrizáveis para adequação de forma rápida a novas normas.
-- Camadas de integração explicitas no projeto.
-- Atender à Legislação do Cadastro Positivo.
-- As informações devem ser apresentadas de forma organizada, amigável e intuitiva.
-- Os relatórios não poderão apresentar informações pessoais, confidenciais e sigilosas.
+| Requisitos Funcionais                      | Código | 
+|--------------------------------------------|--------|
+| Dashboard interativo                       | RNF01  |
+| Seguir as diretrizes da Lgpd               | RNF02  |
+| Banco de dados relacional (my sql)         | RNF03  |
+| Infraestrutura para grande volume de dados | RNF04  |
+| Utilização de linguagem java               | RNF05  |
+| Proteção dos dados do usuário              | RNF06  |
 
 ##### Equipe:
 
