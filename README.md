@@ -17,6 +17,7 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
    * [Requisitos](#requisitos)
       * [Funcionais](#funcionais)
       * [Não Funcionais](#nao-funcionais)
+   * [User Stories](#user-stories)
    * [Equipe](#equipe)
    * [Como Instalar o Projeto na Máquina](#como-instalar-o-projeto-na-maquina)
    * [Tecnologias](#tecnologias)
@@ -69,6 +70,10 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 | Infraestrutura para grande volume de dados | RNF04  |
 | Utilização de linguagem java               | RNF05  |
 | Proteção dos dados do usuário              | RNF06  |
+
+#### User Stories
+
+![User_Stories](/uploads/9524d6eece558203eafcc5b9c61385ab/User_Stories.PNG)
 
 ##### Equipe:
 
