@@ -62,7 +62,7 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 #### Não Funcionais
 
-| Requisitos Funcionais                      | Código | 
+| Requisitos Não Funcionais                  | Código | 
 |--------------------------------------------|--------|
 | Dashboard interativo                       | RNF01  |
 | Seguir as diretrizes da Lgpd               | RNF02  |
