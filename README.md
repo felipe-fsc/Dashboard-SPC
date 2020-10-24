@@ -39,12 +39,12 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 ### Entregas
 
-| Sprint | Data  | Vídeo                                                        |
-|--------|-------|--------------------------------------------------------------|
-| 0      | 27/09 | https://www.youtube.com/watch?v=ibogFmLwwCg&feature=youtu.be |
-| 1      | 18/10 | https://www.youtube.com/watch?v=6PI5ktFFtOQ&feature=youtu.be |
-| 2      | 08/11 |                                                              |
-| 3      | 29/11 |                                                              |
+| Sprint | Data  | Vídeo                                       |
+|--------|-------|---------------------------------------------|
+| 0      | 27/09 | https://www.youtube.com/watch?v=udTstj6BMCI |
+| 1      | 18/10 | https://www.youtube.com/watch?v=lQFAUZnjNhA |
+| 2      | 08/11 |                                             |
+| 3      | 29/11 |                                             |
 
 ### Requisitos
 
