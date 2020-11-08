@@ -1,6 +1,19 @@
 ![logo](/uploads/4314307b69d1017bf8b22767856e3ff4/logo.jpg)
 
-<h1 align="center">Dashboard Cadastro Positivo</h1>
+<h1 align="center">Plataforma Cadastro Positivo</h1>
+
+## Visão do Produto
+
+A nossa proposta é desenvolver um dashboard que funcionará como uma linha do tempo. O objetivo é que o usuário da plataforma possa analisar sua vida financeira baseada em dados que englobam o passado, presente e futuro de sua vida financeira. Os recursos principais do dashboard serão os seguintes:
+- Valor do score atual
+- Banner com artigos informativos para os usuários
+- Gráfico com valores em porcentagem, informando se as contas do cliente foram pagas dentro ou fora do prazo, se ainda estão em aberto ou se estão atrasadas, a partir da escolha de um determinado mês e ano.
+- Gráfico com o histórico do score
+- Tabela informando o quanto do orçamento do usuário foi designado para cada tipo de despesa em um determinado mês, que será escolhido pelo mesmo.
+Com essas informações, a sequência de linha do tempo proposta funcionará da seguinte forma:
+Passado: será designado pelo gráfico de histórico, onde o usuário poderá saber em qual momento de sua vida a sua análise de crédito esteve melhor ou pior.
+Presente: o score atual trará essa informação, onde o cliente poderá saber como agir dependendo do valor que o mesmo receberá como retorno ao fazer sua consulta.
+Futuro: a interface contará com um banner, que irá permitir acesso a artigos que podem ajudar no planejamento financeiro do usuário. Caso o mesmo tenha score baixo, ele terá acesso a dicas de gestão financeira e de como sair das dívidas. Caso o seu score for alto, existem também artigos com informações de dicas de investimento e de como funcionam as taxas bancárias, com o intuito de evitar despesas desnecessárias.
 
 ## Descrição do Projeto
 
@@ -9,6 +22,7 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 Índice
 =================
 <!--ts-->
+   * [Visão do Produto](#visao-do-produto)
    * [Descrição do Projeto](#descricao-do-projeto)
    * [Índice](#indice)
    * [Status do Projeto](#status-do-projeto)
@@ -97,10 +111,6 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 * [Linkedin](linkedin.com/in/gilberto-santos-jr)
 * RA: 1460281723021
 
-##### Samuel Chagas
-* [Git Lab](https://gitlab.com/Chagas2708)
-* [Linkedin](linkedin.com/in/samuel-chagas-0b1ba414b)
-
 #### Como Instalar o projeto na máquina:
 
 - Selecione uma pasta de sua preferência, através do comando "cd Pasta Escolhida"
@@ -111,4 +121,10 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Java](https://www.java.com/)
+- Html
+- Css
+- Javascript
+- Jquery
+- Bootstrap
+- Sql
+- Java
