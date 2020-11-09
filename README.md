@@ -35,7 +35,6 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
    * [Equipe](#equipe)
    * [Como Instalar o Projeto na Máquina](#como-instalar-o-projeto-na-maquina)
    * [Tecnologias](#tecnologias)
-   * [Licença](#licenca)
 <!--te-->
 
 ## Status do Projeto
