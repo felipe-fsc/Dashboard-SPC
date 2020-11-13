@@ -76,13 +76,16 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 | Requisitos Funcionais                          | Código | Prioridade | Sprint |
 |------------------------------------------------|--------|------------|--------|
-| Autenticação dos dados                         | RF01   | 1          | 1      |
-| Tela com valor atual do score                  | RF02   | 1          | 1      |
-| Faq (perguntas frequentes)                     | RF03   | 2          | 1      |
-| Visualização do status de pagamento das contas | RF04   | 1          | 2      |
-| Gráfico com descrição de consumo               | RF05   | 1          | 2      |
-| Histórico do score do usuário                  | RF06   | 1          | 3      |
-| Conexão com banco de dados                     | RF07   | 1          | 3      |
+| Página de acesso                               | RF01   | 1          | 1      |
+| Autenticação dos dados                         | RF02   | 2          | 1      |
+| Formulário de cadastro                         | RF03   | 3          | 1      |
+| Cabeçalho e rodapé da página                   | RF04   | 4          | 1      |
+| Tela com valor atual do score                  | RF05   | 1          | 2      |
+| Banner rotativo                                | RF06   | 2          | 2      |
+| Visualização do status de pagamento das contas | RF07   | 3          | 2      |
+| Histórico do score do usuário                  | RF08   | 4          | 2      |
+| Tabela com descrição de consumo                | RF09   | 1          | 3      |
+| Conexão com banco de dados                     | RF10   | 2          | 3      |
 
 #### Não Funcionais
 
@@ -94,10 +97,18 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 | Infraestrutura para grande volume de dados | RNF04  |
 | Utilização de linguagem java               | RNF05  |
 | Proteção dos dados do usuário              | RNF06  |
+| Inclusão de captcha                        | RNF07  |
+| Design de utilização simples               | RNF08  |
+| Modelar o banco de dados fornecido         | RNF09  |
+| Memorial de cálculo                        | RNF10  |
 
 #### User Stories
 
-![User_Stories](/uploads/9524d6eece558203eafcc5b9c61385ab/User_Stories.PNG)
+| Quem? | O que? | Por que? |
+|-------|--------|----------|
+| Usuário da Plataforma | Ter acesso a um dashboard de fácil entendimento | Para que o mesmo poderá controlar as ações de sua vida financeira de acordo com o que foi apresentado na proposta comercial |
+| SPC | Disponibilizar a seus clientes um sistema interativo | Para atrair pessoas interessadas em consultar seu histórico financeiro e acessar oportunidades que podem melhorar a situação do mesmo |
+| Equipe Tecno Code | Entregar ao contratante do serviço um sistema de qualidade que contenha os recursos que foram solicitados pelo mesmo | Para aplicar na prática os conhecimentos de programação adquiridos, além de adquirir experiência profissional em desenvolvimento de projetos |
 
 ##### Equipe:
 
