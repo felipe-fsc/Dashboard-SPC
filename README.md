@@ -2,7 +2,7 @@
 
 <h1 align="center">Plataforma Cadastro Positivo</h1>
 
-## Visão do Produto
+## Proposta Comercial
 
 A nossa proposta é desenvolver um dashboard que funcionará como uma linha do tempo. O objetivo é que o usuário da plataforma possa analisar sua vida financeira baseada em dados que englobam o passado, presente e futuro de sua vida financeira. Os recursos principais do dashboard serão os seguintes:
 - Valor do score atual
@@ -22,7 +22,7 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 Índice
 =================
 <!--ts-->
-   * [Visão do Produto](#visao-do-produto)
+   * [Proposta Comercial](#proposta-comercial)
    * [Descrição do Projeto](#descricao-do-projeto)
    * [Índice](#indice)
    * [Status do Projeto](#status-do-projeto)
@@ -45,10 +45,21 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 ### Features
 
-- [ ] Score do cadastro positivo
-- [ ] Histórico do score do usuário
-- [ ] Gráfico com o status das contas
-- [ ] Gráfico com os tipos de contas
+- [X] Tela de login
+![login](/uploads/032e0b5978781b1971c642e3fc565159/login.gif)
+- [ ] Autenticação de usuário (falta inserir captcha)
+- [ ] Cadastro de novos usuários (falta corrigir formatação css)
+- [ ] Score do cadastro positivo (falta alinhamento do velocímetro na página e integração back end)
+- [X] Banner com artigos de utilidade pública
+![banner](/uploads/7efa39a769f5df3cfcb50b79b5fda60e/banner.gif)
+
+- [X] Histórico do score do usuário
+
+![histórico](/uploads/2f3675e13f300756f68110f7b8919673/histórico.gif)
+- [X] Gráfico com o status das contas
+
+![status](/uploads/e3f0f45645d6f61041f475892e6da444/status.gif)
+- [ ] Gráfico com os tipos de contas (falta corrigir bug do html)
 
 ### Entregas
 
@@ -56,7 +67,7 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 |--------|-------|---------------------------------------------|
 | 0      | 27/09 | https://www.youtube.com/watch?v=udTstj6BMCI |
 | 1      | 18/10 | https://www.youtube.com/watch?v=lQFAUZnjNhA |
-| 2      | 08/11 |                                             |
+| 2      | 08/11 | https://www.youtube.com/watch?v=JHuPgc0dNwY |
 | 3      | 29/11 |                                             |
 
 ### Requisitos
