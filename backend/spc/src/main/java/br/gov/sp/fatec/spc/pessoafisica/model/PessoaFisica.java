@@ -1,8 +1,6 @@
 package br.gov.sp.fatec.spc.pessoafisica.model;
 
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -18,6 +16,8 @@ import java.io.Serializable;
 @Getter
 @Builder
 @EqualsAndHashCode(of = "id")
+@NoArgsConstructor
+@AllArgsConstructor
 public class PessoaFisica implements Serializable {
     @Id
     @Column(name = "doc_cli", length = 11)

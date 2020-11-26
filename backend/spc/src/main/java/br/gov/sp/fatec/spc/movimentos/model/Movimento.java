@@ -2,24 +2,25 @@ package br.gov.sp.fatec.spc.movimentos.model;
 
 import br.gov.sp.fatec.spc.fonte.model.Fonte;
 import br.gov.sp.fatec.spc.pessoafisica.model.PessoaFisica;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+import lombok.*;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "movimentos")
 @Getter
+@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @EqualsAndHashCode(of = {"pessoaFisica", "fonte"})
 public class Movimento {
-    @PrimaryKeyJoinColumn(name = "doc_cli", columnDefinition = "doc_cli", referencedColumnName = "doc_cli")
+    @ManyToOne
+    @JoinColumn(name = "doc_cli", columnDefinition = "doc_cli", referencedColumnName = "doc_cli")
     private PessoaFisica pessoaFisica;
 
-    @PrimaryKeyJoinColumn(name = "id_fnt", columnDefinition = "id_fnt", referencedColumnName = "id_fnt")
+    @ManyToOne
+    @JoinColumn(name = "id_fnt", columnDefinition = "id_fnt", referencedColumnName = "id_fnt")
     private Fonte fonte;
 
     @Id
@@ -30,9 +31,9 @@ public class Movimento {
     private Long numeroContrato;
 
     @Column(name = "dat_vct")
-    private Long datVencimento;
+    private LocalDateTime datVencimento;
 
-    @Column(name = "qtd_pcl_vct")
+    @Column(name = "qtd_pcl_vnc")
     private Long qntParcelaVencimento;
 
     @Column(name = "qtd_pcl_pgr")
@@ -44,10 +45,10 @@ public class Movimento {
     @Column(name = "vlr_min_fat")
     private Double valorMinFat;
 
-    @Column(name = "valor_pcl")
+    @Column(name = "vlr_pcl")
     private Double valorParcela;
 
-    @Column(name = "tip_mtv")
+    @Column(name = "tip_mvt")
     @Enumerated(EnumType.STRING)
     private TipoMovimento tipoMovimento;
 
