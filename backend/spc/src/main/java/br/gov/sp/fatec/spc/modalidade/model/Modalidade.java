@@ -1,8 +1,6 @@
 package br.gov.sp.fatec.spc.modalidade.model;
 
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,6 +12,8 @@ import java.io.Serializable;
 @Table(name = "modalidade")
 @Getter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Modalidade implements Serializable {
     @Id

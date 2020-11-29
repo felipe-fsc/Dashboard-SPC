@@ -1,31 +1,31 @@
 package br.gov.sp.fatec.spc.pagamento.model;
+
 import br.gov.sp.fatec.spc.fonte.model.Fonte;
 import br.gov.sp.fatec.spc.modalidade.model.Modalidade;
-import br.gov.sp.fatec.spc.movimentos.model.Movimento;
-import br.gov.sp.fatec.spc.operacoes.model.Operacao;
 import br.gov.sp.fatec.spc.pessoafisica.model.PessoaFisica;
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "pagamentos")
+@Table(name = "pagamento")
 @Getter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode(of = {"pessoaFisica", "fonte"})
 public class Pagamento implements Serializable {
+
     @Id
-    @JoinColumn(name = "doc_cli", columnDefinition = "doc_cli", referencedColumnName = "doc_cli")
-    private PessoaFisica pessoaFisica;
+    @Column(name = "doc_cli")
+    private String pessoaFisica;
 
     @Column(name = "tip_cli")
-    private Long tipoCliente;
+    private String tipoCliente;
 
-    @Id
+    @ManyToOne
     @JoinColumn(name = "id_fnt", columnDefinition = "id_fnt", referencedColumnName = "id_fnt")
     private Fonte fonte;
 
@@ -41,7 +41,8 @@ public class Pagamento implements Serializable {
     @Column(name = "vlr_pgt")
     private Double valorPago;
 
-    @PrimaryKeyJoinColumn(name = "cod_mdl", columnDefinition = "cod_mdl", referencedColumnName = "cod_modalidade")
+    @ManyToOne
+    @JoinColumn(name = "cod_mdl", columnDefinition = "cod_mdl", referencedColumnName = "cod_modalidade")
     private Modalidade modalidade;
 
 
