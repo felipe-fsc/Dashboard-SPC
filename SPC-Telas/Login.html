@@ -24,6 +24,9 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+<style>
+	input:invalid {border: red solid 2px;}
+</style>
 </head>
 <body>
 
@@ -36,12 +39,14 @@
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-						<input class="input100" type="text" name="username" placeholder="Usuário">
+						<input type="text" class="input100" name="username" \
+							pattern="[0-9]{11}" title="Digite apenas os números do CPF" \						
+							placeholder="Usuário">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Please enter password">
-						<input class="input100" type="password" name="pass" placeholder="Senha">
+						<input  type="password" class="input100" name="pass" placeholder="Senha">
 						<span class="focus-input100"></span>
 					</div>
 
