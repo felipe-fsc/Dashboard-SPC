@@ -33,7 +33,7 @@ public class Pagamento implements Serializable {
     private Long numContrato;
 
     @Column(name = "dat_pgt")
-    private String dataPagParcela;
+    private LocalDate dataPagParcela;
 
     @Column(name = "dat_vct")
     private LocalDate datVencimento;

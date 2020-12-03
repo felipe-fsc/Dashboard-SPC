@@ -23,6 +23,11 @@ public class PagamentoController {
         return pagamentoService.contabilizar();
     }
 
+    @GetMapping("/{mes}/{ano}")
+    public Set<PagamentoData> contabilizarEstatistica(@PathVariable("mes") Integer mes, @PathVariable("ano") Integer ano) {
+        return pagamentoService.contabilizar(mes, ano);
+    }
+
     @GetMapping("/{pessoaFisica}")
     public ScorePessoa buscarScorePessoa(@PathVariable("pessoaFisica") String pessoaFisica){
         return pagamentoService.buscarScorePessoa(pessoaFisica);

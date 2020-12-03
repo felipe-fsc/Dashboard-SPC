@@ -8,6 +8,6 @@ import lombok.Getter;
 @EqualsAndHashCode(of = { "statusPagamento" })
 @AllArgsConstructor
 public class PagamentoData {
-    private StatusPagamento statusPagamento;
+    private String statusPagamento;
     private Double percentual;
 }
