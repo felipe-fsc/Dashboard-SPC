@@ -12,6 +12,7 @@
   <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
 
   <script type="text/javascript" src="js/pagamento/pagamentos.js"></script>
+  <script type="text/javascript" src="js/scorePessoa/scorePessoa.js"></script>
   
 <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -31,7 +32,7 @@
           ['Setembro',  690],
           ['Outubro',  773],
           ['Novembro',  694],
-          ['Dezembro',  755]
+          ['Dezembro',  1000]
         ]);
 
         var options = {
@@ -156,138 +157,7 @@
 	<! -- score -->
     <div class="elementExample elementExample_second">
         <div><center>Score Atual</center>
-            <center>
-            <select id="mesScore">
-                <option value="" >Selecione um mês</option>
-                <option value=1>Janeiro</option>
-                <option value=2>Fevereiro</option>
-                <option value=3>Março</option>
-                <option value=4>Abril</option>
-                <option value=5>Maio</option>
-                <option value=6>Junho</option>
-                <option value=7>Julho</option>
-                <option value=8>Agosto</option>
-                <option value=9>Setembro</option>
-                <option value=10>Outubro</option>
-                <option value=11>Novembro</option>
-                <option value=12>Dezembro</option>
-            </select>
-            <select id="anoScore">
-                <option value="">Selecione um ano</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option>
-                <option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option>
-                <option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option>
-            </select>
-          </center>
-        <center>Seu score atual é de 730 pontos.</center></div>
         <div id='myChart'></div>
-        <script>
-        window.feed = function(callback) {
-     var tick = {};
-     callback(JSON.stringify(tick));
-     };
-
-     var myConfig = {
-     type: "gauge",
-     globals: {
-      fontSize: 15
-     },
-     plotarea: {
-      marginTop: 50
-     },
-     plot: {
-      size: '100%',
-      valueBox: {
-        placement: 'center',
-        text: '%v', //default
-        fontSize: 15,
-        rules: [{
-            rule: '%v >= 718',
-            text: '%v<br>Ótimo'
-          },
-          {
-            rule: '%v < 718 && %v > 618',
-            text: '%v<br>Bom'
-          },
-          {
-            rule: '%v < 619 && %v > 525',
-            text: '%v<br>Regular'
-          },
-          {
-            rule: '%v < 526 && %v > 375',
-            text: '%v<br>Ruim'
-          },
-          {
-            rule: '%v <  375',
-            text: '%v<br>Muito ruim'
-          },
-        ]
-      }
-     },
-     tooltip: {
-      borderRadius: 5
-     },
-     scaleR: {
-      aperture: 180,
-      minValue: 0,
-      maxValue: 1000,
-      center: {
-        visible: false
-      },
-      tick: {
-        visible: false
-      },
-      item: {
-        offsetR: 0,
-        rules: [{
-          rule: '%i == 9',
-          offsetX: 15
-        }]
-      },
-      ring: {
-        size: 50,
-        rules: [{
-            rule: '%v <= 375',
-            backgroundColor: '#FF0000'
-          },
-          {
-            rule: '%v > 375 && %v < 525',
-            backgroundColor: '#FFA500'
-          },
-          {
-            rule: '%v > 525 && %v < 618',
-            backgroundColor: '#FFFF00'
-          },
-          {
-            rule: '%v >= 618 && %v < 717',
-            backgroundColor: '#00FF00'
-          },
-          {
-            rule: '%v >= 717',
-            backgroundColor: '#008000'
-          }
-        ]
-      }
-     },
-     series: [{
-      values: [773], // starting value
-      backgroundColor: 'black',
-      indicator: [10, 10, 10, 10, 0.75],
-      animation: {
-        effect: 2,
-        method: 1,
-        sequence: 4,
-        speed: 900
-      },
-     }]
-     };
-
-     zingchart.render({
-     id: 'myChart',
-     data: myConfig,
-     height: 198,
-     width: 383
-     });
-         </script>
     </div>
   </div>
 
@@ -325,11 +195,7 @@
 		<!--  histórico -->
 		<div class="elementExample_fourth">
 <div><center>Histórico do Score<br>
-  <select>
-    <option>Selecione um ano</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option>
-    <option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option>
-    <option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option>
-</select></center>
+  
             <div id="curve_chart"></div>
           </div>
 		</div>
