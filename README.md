@@ -47,9 +47,14 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 
 - [X] Tela de login
 ![login](/uploads/032e0b5978781b1971c642e3fc565159/login.gif)
-- [ ] Autenticação de usuário (falta inserir captcha)
-- [ ] Cadastro de novos usuários (falta corrigir formatação css)
-- [ ] Score do cadastro positivo (falta alinhamento do velocímetro na página e integração back end)
+- [X] Autenticação de usuário
+
+![autenticação](/uploads/8351dad5eb1963b53b7a065e415416e1/autenticação.png)
+- [X] Cadastro de novos usuários
+![cadastro](/uploads/9dd37dae5b29b975dcb93538707acad7/cadastro.png)
+- [X] Score do cadastro positivo
+
+![score](/uploads/6fea0f3a11e72fdd8b7b6d969ecc0376/score.png)
 - [X] Banner com artigos de utilidade pública
 ![banner](/uploads/7efa39a769f5df3cfcb50b79b5fda60e/banner.gif)
 
@@ -59,8 +64,9 @@ A equipe desenvolverá um trabalho em parceria com o Spc, onde será desenvolvid
 - [X] Gráfico com o status das contas
 
 ![status](/uploads/e3f0f45645d6f61041f475892e6da444/status.gif)
-- [ ] Gráfico com os tipos de contas (falta corrigir bug do html)
+- [X] Tabela com os tipos de contas
 
+![tabela](/uploads/bb7014db02f99e4fdd8ee4781670a7b9/tabela.png)
 ### Entregas
 
 | Sprint | Data  | Vídeo                                       |
